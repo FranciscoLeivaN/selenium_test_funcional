@@ -27,13 +27,13 @@ Automatizar pruebas desde la perspectiva del usuario es crucial por varios motiv
 
 ¿Qué limitaciones tiene Selenium y cómo las superarías?
 Fragilidad ante cambios de UI:
-Problema: Los selectores pueden romperse cuando la estructura HTML cambia.
-Solución: Usar selectores más robustos, implementar estrategias de recuperación (como en tu código al intentar múltiples selectores) y considerar herramientas como Page Object Model para abstraer los selectores.
+* Problema: Los selectores pueden romperse cuando la estructura HTML cambia.
+* Solución: Usar selectores más robustos, implementar estrategias de recuperación (como en tu código al intentar múltiples selectores) y considerar herramientas como Page Object Model para abstraer los selectores.
 
 Tiempos de espera impredecibles:
-Problema: time.sleep() es ineficiente y puede hacer que las pruebas sean lentas o inestables.
-Solución: Usar esperas explícitas e implícitas.
+* Problema: time.sleep() es ineficiente y puede hacer que las pruebas sean lentas o inestables.
+* Solución: Usar esperas explícitas e implícitas.
 
 Rendimiento y escalabilidad:
-Problema: Selenium es relativamente lento y consume muchos recursos.
-Solución: Implementar ejecución en paralelo, usar Selenium Grid para distribuir pruebas y considerar herramientas como Playwright o Cypress para pruebas más rápidas en algunos casos.
+* Problema: Selenium es relativamente lento y consume muchos recursos.
+* Solución: Implementar ejecución en paralelo, usar Selenium Grid para distribuir pruebas y considerar herramientas como Playwright o Cypress para pruebas más rápidas en algunos casos.
