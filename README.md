@@ -2,7 +2,7 @@ Ejercicio Guiado: Pruebas Funcionales con Selenium
 Grupo 2 : Guillermo Torres / Francisco Leiva
 
 1.- ¿Qué tipo de errores podrías detectar con esta prueba funcional?
-Con la prueba funcional implementada, se puedden detectar varios tipos de errores importantes:
+Con la prueba funcional implementada, se pueden detectar varios tipos de errores importantes:
   * Errores de disponibilidad: Si el sitio web (DuckDuckGo en este caso) no está accesible o muestra errores de servidor.
 
 Cambios en la interfaz de usuario:
