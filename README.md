@@ -37,3 +37,9 @@ Tiempos de espera impredecibles:
 Rendimiento y escalabilidad:
 * Problema: Selenium es relativamente lento y consume muchos recursos.
 * Solución: Implementar ejecución en paralelo, usar Selenium Grid para distribuir pruebas y considerar herramientas como Playwright o Cypress para pruebas más rápidas en algunos casos.
+
+En esta prueba se valido -> La funcionalidad de búsqueda en DuckDuckGO, probando su disponibilidad y la presentación de resultados.
+
+Que podría fallar si esta prueba no existiera -> Podrian surguir problemas sin ser detectados como cambios en el código que afecten al motor de búsqueda y fallas en la api que podrian degradar el tiempo de respuesta de la búsqueda.
+
+Sugerencias para nuevos casos funcionales-> Pruebas de búsqueda avanzada - validación de filtros y pruebas de accesibilidad básica.
