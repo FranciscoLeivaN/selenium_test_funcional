@@ -1,7 +1,7 @@
 Ejercicio Guiado: Pruebas Funcionales con Selenium
 Grupo 2 : Guillermo Torres / Francisco Leiva
 
-¿Qué tipo de errores podrías detectar con esta prueba funcional?
+1.- ¿Qué tipo de errores podrías detectar con esta prueba funcional?
 Con la prueba funcional implementada, se puedden detectar varios tipos de errores importantes:
   * Errores de disponibilidad: Si el sitio web (DuckDuckGo en este caso) no está accesible o muestra errores de servidor.
 
@@ -17,7 +17,7 @@ Errores de tiempo de respuesta:
   * Si la carga de resultados toma más tiempo del esperado (aunque el time.sleep(5) actual es una solución temporal)
   * Problemas de renderizado: Si los elementos están presentes en el DOM pero no se muestran visualmente.
 
-¿Por qué es importante automatizar pruebas desde la perspectiva del usuario?
+2.- ¿Por qué es importante automatizar pruebas desde la perspectiva del usuario?
 Automatizar pruebas desde la perspectiva del usuario es crucial por varios motivos:
   * Validación de la experiencia real: Estas pruebas simulan las acciones que realizaría un usuario final, verificando que los flujos completos funcionan correctamente.
   * Detección temprana de regresiones: Cambios en una parte del código pueden afectar inesperadamente la experiencia del usuario. Las pruebas automatizadas capturan estos problemas antes de llegar a producción.
@@ -25,7 +25,7 @@ Automatizar pruebas desde la perspectiva del usuario es crucial por varios motiv
   * Ahorro de tiempo y recursos: La ejecución manual repetitiva de pruebas es costosa y propensa a errores humanos. La automatización permite ejecutar pruebas complejas de forma consistente.
   * Facilita el desarrollo continuo: En un entorno de integración/entrega continua, estas pruebas proporcionan confianza para desplegar cambios con frecuencia.
 
-¿Qué limitaciones tiene Selenium y cómo las superarías?
+3.-¿Qué limitaciones tiene Selenium y cómo las superarías?
 Fragilidad ante cambios de UI:
 * Problema: Los selectores pueden romperse cuando la estructura HTML cambia.
 * Solución: Usar selectores más robustos, implementar estrategias de recuperación (como en tu código al intentar múltiples selectores) y considerar herramientas como Page Object Model para abstraer los selectores.
